@@ -1,0 +1,8 @@
+<mod-process maxCount="{{30}}" joinedNum="{{26}}" requireNum="{{20}}" processLen="{{540}}" showScale="{{true}}" showScaleVal="{{true}}" processItemLen="{{4}}">
+</mod-process>
+
+<mod-process maxCount="{{30}}" joinedNum="{{25}}" requireNum="{{25}}" processLen="{{400}}" showScale="{{true}}" showScaleVal="{{true}}">
+</mod-process>
+
+<mod-process maxCount="{{30}}" joinedNum="{{26}}" requireNum="{{20}}" processLen="{{600}}" showScale="{{false}}" showScaleVal="{{false}}" backgroundColor="#b481bb" activeColor="#592c63" showSuccess="{{false}}" activeInfo="已经完成" requireInfo=",至少完成">
+</mod-process>

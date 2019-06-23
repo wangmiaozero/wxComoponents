@@ -1,0 +1,30 @@
+/* pages/about/about.wxss */
+.contaner {
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contaner-images {
+  width: 476rpx;
+  height: 500rpx;
+  margin-top: 50rpx;
+  border-radius: 20rpx;
+  box-shadow: 10rpx 10rpx 10rpx 10rpx #ccc;
+}
+
+.contaner-text {
+  width: 600rpx;
+  margin-top: 50rpx;
+  border-radius: 20rpx;
+  box-shadow: 10rpx 10rpx 10rpx 10rpx #ccc;
+
+}
+
+.contaner-text-child {
+  text-shadow: .2rem 0rem .5rem red,
+    -.2rem 0rem .5rem red,
+    0rem .2rem .5rem red,
+    0rem -.2rem .5rem red;
+}

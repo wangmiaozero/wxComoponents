@@ -1,0 +1,122 @@
+.rt-info-expand {
+  flex: 1;
+  margin-left: 20rpx;
+  text-align: center;
+}
+
+.rt-h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 24rpx;
+  color: #666666;
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 64rpx;
+}
+
+.percent-circle {
+  position: absolute;
+  height: 100%;
+  background: #f00;
+  overflow: hidden;
+}
+
+.percent-circle-right {
+  right: 0;
+  width: 64rpx;
+  border-radius: 0 64rpx 64rpx 0/0 64rpx 64rpx 0;
+}
+
+.percent-circle-right .right-content {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  transform-origin: left center;
+  transform: rotate(0deg);
+  border-radius: 0 64rpx 64rpx 0/0 64rpx 64rpx 0;
+}
+
+.percent-circle-left {
+  width: 64rpx;
+  border-radius: 64rpx 0 0 64rpx/64rpx 0 0 64rpx;
+}
+
+.percent-circle-left .left-content {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  transform-origin: right center;
+  transform: rotate(0deg);
+  border-radius: 64rpx 0 0 64rpx/64rpx 0 0 64rpx;
+}
+
+.text-circle {
+  position: absolute;
+  font-size: 22rpx;
+  height: 69%;
+  width: 88%;
+  left: 6%;
+  top: 6%;
+  border-radius: 100%;
+  background: #ffffff;
+  color: #666666;
+  padding-top: 25rpx;
+}
+
+.file {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #666666;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 34rpx;
+}
+
+.help {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+.border {
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+}
+
+.moreImg {
+  width: 10rpx;
+  height: 20rpx;
+  margin-left: 20rpx;
+}
+
+.start {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 33rpx;
+  display: inline-block;
+  width: 100rpx;
+  vertical-align: middle;
+}
+
+.end {
+  font-size: 24rpx;
+  display: inline-block;
+  width: 238rpx;
+  text-align: right;
+  line-height: 33rpx;
+  vertical-align: middle;
+}
+
+.progress {
+  height: 10rpx;
+  width: 100%;
+}

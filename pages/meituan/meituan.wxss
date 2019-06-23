@@ -1,0 +1,148 @@
+/* pages/meituan/meituan.wxss */
+
+
+/*进度条  */
+
+.keduBuFen {
+    height: 100rpx;
+    width: 100%;
+    padding-bottom: 60rpx;
+}
+
+.bigs1 {
+    width: 75%;
+    margin: 0rpx auto;
+    margin-top: 80rpx;
+    position: relative;
+}
+
+.bigs2 {
+    width: 75%;
+    margin: 0rpx auto;
+    position: relative;
+}
+
+.hui {
+    width: 100%;
+    height: 4rpx;
+    background: #e2e2e2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.viewsmall {
+    flex: 1;
+    height: 4rpx;
+}
+
+.zhongJianSelect {
+    width: 10rpx;
+    height: 10rpx;
+    border-radius: 10rpx;
+    background: #fff !important;
+    border: 7rpx solid #fab13e;
+    top: 28rpx;
+    margin: -8rpx;
+    z-index: 101;
+}
+
+.zhongJian {
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 20rpx;
+    background: #e1e1e1;
+    top: 28rpx;
+    margin: -8rpx;
+    z-index: 210;
+}
+
+.gangBig {
+    position: absolute;
+    left: 0;
+    bottom: 0rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.huang {
+    position: absolute;
+    height: 4rpx;
+    background: #fab13e;
+    left: 0;
+    bottom: 0rpx;
+    display: flex;
+    flex-direction: row;
+    float: left
+}
+
+.kedudian {
+    float: left;
+    position: absolute;
+    bottom: 0;
+    z-index: 500;
+    width: 160rpx;
+    height: 70rpx;
+    overflow: hidden;
+}
+
+.jinduPng {
+    width: 120rpx;
+    height: 50rpx;
+}
+
+.cantuanNumber {
+    position: absolute;
+    left: 18rpx;
+    bottom: 40rpx;
+    font-size: 20rpx;
+    color: white;
+    text-align: center;
+}
+
+.viewbig {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15rpx 0;
+}
+
+.viewsmall2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewsmall2Text {
+    color: #fab750;
+    font-size: 24rpx;
+    text-align: right
+}
+
+.viewsmall2TextSelect {
+    color: #574c46;
+    font-size: 24rpx;
+    text-align: right
+}
+
+.touXiangImgView1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.touXiangImgView {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 124rpx;
+    width: 94rpx;
+    margin: 10rpx 5rpx;
+    padding-top: 5rpx;
+}
+
+.touXiangImgView2 {
+    height: 124rpx;
+}

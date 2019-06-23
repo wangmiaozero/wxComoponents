@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="count-info" style="width: {{processLen}}rpx">
+        <image src="/images/person.svg"></image>
+        {{activeInfo}}<span style="margin-left: 12rpx;color:{{activeColor}};">{{countAnimation}}</span>{{requireInfo}}{{requireNum}}
+    </view>
+    <view class="process" style="width: {{processLen}}rpx;background: {{backgroundColor}};">
+       <image animation="{{animationCheck}}" class="{{showSuccess ? 'success' : 'dsn'}}" style="left: {{flagLeft}};" src="/images/success.svg"></image>
+        <view animation="{{animationData}}" class="process-active" style="background: {{activeColor}};"></view>
+    </view> 
+    <view class="scale-container" style="width: {{processLen}}rpx">
+        <view wx:for="{{scaleList}}" wx:key="scale{{idx}}"  wx:for-index="idx" wx:for-item="scaleItem">
+            <view wx:if="{{showScale}}" class="scale" style="left: {{scaleItem.left}}"></view>
+            <view wx:if="{{showScaleVal}}" class="scale-num" style="left: {{scaleItem.numLeft}}">{{scaleItem.scale}}</view>
+        </view>
+    </view>
+</view>

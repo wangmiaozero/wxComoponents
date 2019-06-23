@@ -1,0 +1,11 @@
+<progress2 id="progress2" containerText="正常值" adminValue="80" outer0="pink" inside0="red" outer1="green" inside1="yellow" outer2="blue" inside2="orange"></progress2>
+<!-- adminValue 类型:number 进行改变百分比 0-100
+      containerText 类型:String 文字描述
+        0-30 30-60 60-100  三色
+        outer0 类型:String 描述:外圈颜色 
+       inside0  类型:String 描述:内圈颜色
+        outer1 类型:String 描述:外圈颜色 
+       inside1  类型:String 描述:内圈颜色
+       outer2 类型:String 描述:外圈颜色 
+       inside2  类型:String 描述:内圈颜色 
+              adminValue="100" outer="pink" inside="pink" outer1="yello" inside1="yello" outer2="green" inside2="green" -->

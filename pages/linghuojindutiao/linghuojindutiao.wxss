@@ -1,0 +1,88 @@
+/* pages/linghuojindutiao/linghuojindutiao.wxss */
+
+.container {
+    width: 100%;
+    height: 210rpx;
+    background: #fff;
+    position: relative;
+}
+
+.count-info {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40rpx;
+    width: 540rpx;
+    font-family: DINAlternate-Bold;
+    font-size: 40rpx;
+}
+
+.count-info image {
+    width: 28rpx;
+    height: 32rpx;
+}
+
+.process {
+    margin: 0 auto;
+    margin-top: 20rpx;
+    width: 540rpx;
+    height: 20rpx;
+    border-radius: 10rpx;
+    background: #9CF0D1;
+    position: relative;
+    z-index: 2;
+}
+
+.process-active {
+    position: absolute;
+    top: 0rpx;
+    left: 0rpx;
+    width: 0;
+    height: 20rpx;
+    border-radius: 10rpx;
+    /* background: #9CF0D1; */
+    background: #09CD8A;
+    z-index: 2;
+}
+
+.success {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    top: -8rpx;
+    width: 44rpx;
+    height: 44rpx;
+    z-index: 3;
+    top: -12rpx;
+    transform: scale(0.2);
+}
+
+.num {
+    position: absolute;
+    margin-left: 74rpx;
+}
+
+.scale-container {
+    margin: -20rpx auto;
+    height: 16rpx;
+    width: 540rpx;
+    position: relative;
+    z-index: 1;
+}
+
+.scale {
+    position: absolute;
+    top: 14rpx;
+    height: 16rpx;
+    width: 2rpx;
+    background: #09CD8A;
+}
+
+.scale-num {
+    position: absolute;
+    top: 40rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 22rpx;
+    color: #CACACD;
+    text-align: center;
+    width: 44rpx;
+}

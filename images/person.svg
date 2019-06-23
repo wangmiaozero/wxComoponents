@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/32/人数-面</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/32/人数-面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.8497344,15.3558585 C9.99775053,14.1328501 8,11.2997249 8,8 C8,3.581722 11.581722,0 16,0 C20.418278,0 24,3.581722 24,8 C24,11.2997249 22.0022495,14.1328501 19.1502656,15.3558585 C25.0509235,16.7127163 29.5271893,21.7988391 29.9648359,28 L30,28 L30,30 C30,31.1045695 29.1045695,32 28,32 L4,32 C2.8954305,32 2,31.1045695 2,30 L2,28 L2.03516405,28 C2.4728107,21.7988391 6.94907655,16.7127163 12.8497344,15.3558585 Z" id="Mask-Copy" fill="#592c63" fill-rule="nonzero"></path>
+    </g>
+</svg>

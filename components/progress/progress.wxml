@@ -1,0 +1,16 @@
+<view class="rt-info-expand">
+  <view class="rt-h2" style="background-color:dark;">
+    <view class="percent-circle percent-circle-left" style="background-color: {{inside}};">
+      <view class="left-content" style="background-color: {{outer}};transform: rotate({{deg2}}deg)"></view>
+    </view>
+    <view class="percent-circle percent-circle-right" style="background-color: {{inside}}">
+      <view class="right-content" style="background-color:{{outer}};transform: rotate({{deg}}deg)"></view>
+    </view>
+    <view class="text-circle">
+      <view>风险值</view>
+      <view style="margin-top:6rpx;font-size: 24rpx;font-weight: 800;color:black">
+        {{adminValue}}
+      </view>
+    </view>
+  </view>
+</view>

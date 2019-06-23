@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/study-components/study-components",
+    "pages/about/about",
+    "pages/date/date",
+    "pages/city/city",
+    "pages/float_tab/float_tab",
+    "pages/horizontal-scroll_tab/horizontal-scroll_tab",
+    "pages/line-chart/line-chart",
+    "pages/column-chart/column-chart",
+    "pages/double-line-chart/double-line-chart",
+    "pages/line-column-chart/line-column-chart",
+    "pages/double-column-chart/double-column-chart",
+    "pages/calibration-instrument/calibration-instrument",
+    "pages/progress-bar/progress-bar",
+    "pages/call-statistics/call-statistics",
+    "pages/call-statistics-detail/call-statistics-detail",
+    "pages/comon-search/comon-search",
+    "pages/comon-search-history/comon-search-history",
+    "pages/circle/circle",
+    "pages/canvasDemo/canvasDemo",
+    "pages/meituan/meituan",
+    "pages/linghuojindutiao/linghuojindutiao",
+    "pages/yuanjindu/yuanjindu",
+    "pages/yuanjindu1/yuanjindu1"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8C25FF",
+    "navigationBarTitleText": "自定义组件",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#888888",
+    "selectedColor": "#8C25FF",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "组件",
+        "iconPath": "images/ic_component.png",
+        "selectedIconPath": "images/ic_component_selected.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/ic_about.png",
+        "selectedIconPath": "images/ic_about_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

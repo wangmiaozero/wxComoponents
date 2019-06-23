@@ -1,0 +1,34 @@
+<!--拼团刻度  -->
+            
+<view class="bigs1" >
+          <view class='hui'>
+              <block wx:for="{{jindutiao}}" wx:key="index">
+                <view class='viewsmall'></view>
+                <view class="zhongJianSelect"wx:if="{{item.statu}}"></view>
+                <view class="zhongJian"wx:else></view>
+              </block>
+          </view>
+          <!--刻度杠  -->
+          
+           <view class='kedudian'style="left:{{width-11}}%">
+                 <image mode='scaleToFill' src='../../images/dialog.png' class='jinduPng'></image>
+                 <text class='cantuanNumber'>{{num}}人已参团</text> 
+           </view>
+           <view class='huang' style="width:{{width}}%"></view>
+ 
+          </view>
+          <view class='bigs2'>
+             <view class='viewbig'>
+             <block wx:for="{{jindutiao}}" wx:key="index">
+                <view class='viewsmall2' wx:if="{{item.statu}}">
+                  <text class='viewsmall2Text'>{{item.num}}人团</text>
+                  <text class='viewsmall2Text'>¥{{item.price}}</text>
+                </view>
+                <view class='viewsmall2' wx:else>
+                  <text class='viewsmall2Text viewsmall2TextSelect'>{{item.num}}人团</text>
+                  <text class='viewsmall2Text viewsmall2TextSelect'>¥{{item.price}}</text>
+                </view>
+                 
+             </block>
+             </view>
+          </view>

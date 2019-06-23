@@ -1,0 +1,4 @@
+<progress adminValue="10" outer="pink" inside="red"></progress>
+<!-- adminValue 类型:number 进行改变百分比 0-100
+        outer 类型:String 描述:外圈颜色 
+       inside  类型:String 描述:内圈颜色 -->

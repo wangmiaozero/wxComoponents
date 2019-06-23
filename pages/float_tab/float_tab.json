@@ -1,0 +1,12 @@
+{
+
+  "navigationBarTitleText": "滑动悬浮",
+  "backgroundColor": "#FFFFFF",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "float-tab": "../../components/float-tab/float-tab"
+  },
+  "onReachBottomDistance": 0
+
+}

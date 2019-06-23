@@ -1,0 +1,41 @@
+/**index.wxss**/
+page{
+ /*  background-image: linear-gradient(160deg, #ff0064 20%,#ca00ff 80%); */
+ /*  background-image: linear-gradient(160deg, #b100ff 20%,#00b3ff 80%); */
+ /*  background-image: linear-gradient(0deg, #fff 0%,#000 100%); */
+/*   background-image: linear-gradient(160deg, #00ffd5 20%,#008cff 80%); */
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container::after {
+  content: "";
+  width: 50%;
+  filter:blur(4px);
+  
+}
+.container-child{
+  width: 30.333%;
+  height: 210rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  margin:10rpx;
+  color: aliceblue;
+  position: relative;
+  background-image: linear-gradient(160deg, #b100ff 20%,#00b3ff 80%);
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+.container-child::before{
+    content: '';
+    position:absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1
+}

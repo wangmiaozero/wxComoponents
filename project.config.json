@@ -1,0 +1,101 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wx33aded6302864055",
+	"projectname": "frankyui-weapp",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/column-chart/column-chart",
+					"pathName": "pages/column-chart/column-chart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "折线图",
+					"pathName": "pages/line-column-chart/line-column-chart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "微信小程序实现了圆形进度条",
+					"pathName": "pages/circle/circle",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/canvasDemo/canvasDemo",
+					"pathName": "pages/canvasDemo/canvasDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/meituan/meituan",
+					"pathName": "pages/meituan/meituan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/linghuojindutiao/linghuojindutiao",
+					"pathName": "pages/linghuojindutiao/linghuojindutiao",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yuanjindu/yuanjindu",
+					"pathName": "pages/yuanjindu/yuanjindu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yuanjindu1/yuanjindu1",
+					"pathName": "pages/yuanjindu1/yuanjindu1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about/about",
+					"pathName": "pages/about/about",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

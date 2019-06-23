@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "progress": "/components/progress/progress"
+  }
+}
