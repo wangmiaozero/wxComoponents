@@ -106,7 +106,13 @@ var pageObj = {
         id: 'yuanjindu1',
         title: '21，圆进度条css实现三色',
         navigateUrl: '/pages/yuanjindu1/yuanjindu1',
+      },
+      {
+        id: 'delete',
+        title: '22，滑动删除',
+        navigateUrl: '/pages/delete/delete',
       }
+
     ],
 
   },

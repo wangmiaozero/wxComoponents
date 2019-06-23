@@ -23,8 +23,8 @@
     "pages/meituan/meituan",
     "pages/linghuojindutiao/linghuojindutiao",
     "pages/yuanjindu/yuanjindu",
-    "pages/yuanjindu1/yuanjindu1"
-
+    "pages/yuanjindu1/yuanjindu1",
+    "pages/delete/delete"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,7 +36,8 @@
     "position": "bottom",
     "color": "#888888",
     "selectedColor": "#8C25FF",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "组件",
         "iconPath": "images/ic_component.png",
