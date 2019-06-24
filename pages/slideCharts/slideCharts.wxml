@@ -1,0 +1,20 @@
+<!--pages/滑动展示图表/slideCharts.wxml-->
+<view class='slide-content'>
+
+  <scroll-view bindscroll="chartScroll" scroll-x scroll-left="{{moveScroll}}" scroll-with-animation bindtouchstart='clickStart'>
+    <view class='slide-charts' style='padding-left:{{chartLeft}}px;width:{{chartWidth}}px'>
+      <view class='slide-item ' wx:for="{{historyData}}" wx:item="{{item}}" wx:key="{{item}}" wx:index="{{index}}">
+        <view class="slide-item-content {{index==nowIndex-1?'slide-bar-isSelect':'' }}">
+          <view class='slide-number'>{{item}}</view>
+          <view class="slide-bar-content " style='height:{{item*20}}rpx'></view>
+          <view class='slide-number'>4/14-4/20</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+</view>
+<!-- 底部信息  -->
+<view class='chart-bottom'>
+  <text>{{nowIndex}}</text>
+</view>

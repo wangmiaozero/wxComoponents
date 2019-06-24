@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "可滑动柱状图表",
+    "usingComponents": {
+        "slideBarChart": "../../components/slideBarChart/slideBarChart"
+    }
+}

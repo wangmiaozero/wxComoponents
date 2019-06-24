@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 9,
+			"current": 10,
 			"list": [
 				{
 					"id": 0,
@@ -100,6 +100,12 @@
 					"name": "pages/delete/delete",
 					"pathName": "pages/delete/delete",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "滑动柱状图",
+					"pathName": "pages/mian/mian",
 					"scene": null
 				}
 			]

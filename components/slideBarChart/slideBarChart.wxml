@@ -1,0 +1,45 @@
+ <view class="container">
+ <view class="line">
+  <view class="count" >
+    350
+  </view>
+  <view class="count" >
+    300
+  </view>
+  <view class="count" >
+    250
+  </view>
+  <view class="count" >
+    200
+  </view>
+  <view class="count" >
+    150
+  </view>
+  <view class="count" >
+    100
+  </view>
+  <view class="count" >
+    50
+  </view>
+  <view class="count" >
+    0
+  </view>
+
+ </view>
+ <view class='slide-content'>
+  <scroll-view bindscroll="chartScroll" scroll-x scroll-left="{{moveScroll}}" scroll-with-animation bindtouchstart='clickStart'>
+    <view class='slide-charts' style='padding-left:{{chartLeft}}px;width:{{chartWidth}}px'>
+      <view class='slide-item ' wx:for="{{chartData}}" wx:item="{{item}}" wx:key="{{item}}" wx:index="{{index}}">
+        <view class="slide-item-content {{index==nowIndex-1?'slide-bar-active':'' }}">
+          <view class='slide-number'>{{item[yName]}}</view>
+          <view class="slide-bar-content " style='height:{{item.value}}rpx'></view>
+          <view class='slide-number' hidden='{{!nowIndex}}'>{{item[xName]}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+</view>
+<view class='chart-bottom'>
+<!-- 这里可以自定义你的东西 -->
+</view>

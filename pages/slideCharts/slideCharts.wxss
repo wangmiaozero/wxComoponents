@@ -1,0 +1,108 @@
+/* pages/slideCharts/slideCharts.wxss */
+/* pages/滑动展示图表/slideCharts.wxss*/
+
+page {
+  height: 2000rpx;
+  overflow-y: scroll;
+}
+
+.slide-content {
+  height: 492rpx;
+  width: 100%;
+  background: linear-gradient(#1797eb, #3cabef);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.slide-charts {
+  height: 100%;
+  transition: all 1s;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+}
+
+.slide-item {
+  height: 492rpx;
+  text-align: center;
+  width: 124rpx;
+  position: relative;
+  color: #92d6f4;
+}
+
+.slide-item::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  height: 90%;
+  width: 2rpx;
+  left: 50%;
+  margin-left: -1rpx;
+  z-index: 0;
+}
+
+.slide-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 124rpx;
+  height: 450rpx;
+}
+
+.slide-bar-content {
+  background: linear-gradient(#5cbdf4, #8fd6f6);
+  width: 40rpx;
+  z-index: 5;
+  border-radius: 4rpx;
+  margin-top: 24rpx;
+}
+
+.slide-number {
+  font-size: 20rpx;
+  color: #92d6f4;
+  text-align: center;
+  line-height: 24rpx;
+  margin-top: 24rpx;
+}
+
+.slide-bar-isSelect .slide-bar-content {
+  background: #fff;
+}
+
+.slide-bar-isSelect .slide-number {
+  color: #fff;
+}
+
+.chart-bottom {
+  width: 100%;
+  height: 300rpx;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.chart-bottom:after {
+  content: "";
+  width: 63rpx;
+  height: 63rpx;
+  /* border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-bottom: 20rpx solid #fff; */
+  transform: rotate(45deg);
+  background: #fff;
+  position: absolute;
+  /* top: -16rpx; */
+  left: 50%;
+  margin-left: -30rpx;
+  border-radius: 6rpx;
+}
+
+.chart-bottom text {
+  display: inline-block;
+  margin-top: 50rpx;
+  font-size: 80rpx;
+  font-weight: 600;
+  color: #666;
+}

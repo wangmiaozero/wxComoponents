@@ -1,0 +1,37 @@
+/* pages/mian/mian.wxss */
+
+
+/* pages/main/main.wxss */
+
+page {
+    background: #eee;
+}
+
+.container {
+    /* background-color: pink; */
+}
+
+.current {
+    width: 100%;
+    margin: 20rpx auto;
+    font-size: 30rpx;
+    text-align: center;
+    color: #888;
+}
+
+.current .value {
+    width: 200rpx;
+    height: 60rpx;
+    text-align: center;
+    font-size: 60rpx;
+    line-height: 60rpx;
+    font-weight: bold;
+    color: #5cbdf4;
+}
+
+.current .value1 {
+    height: 200rpx;
+    width: 100%;
+    border-radius: 20rpx;
+    box-shadow: 10rpx 10rpx 10rpx 10rpx #ccc;
+}

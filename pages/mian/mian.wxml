@@ -1,0 +1,11 @@
+<!-- 引入滑动组件 -->
+  <slideBarChart 
+  chartData="{{chartData}}" 
+  xName="name"
+  yName="value"
+  bindcurrentBarChange="currentBarChange"
+  ></slideBarChart>
+<view class='current'>
+  <view class='value1'>{{currentData.text}}</view>
+</view>
+
