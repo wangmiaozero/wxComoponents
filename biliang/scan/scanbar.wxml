@@ -1,0 +1,25 @@
+<template name="scanbar">
+  <view class="radar">
+    <view class="circle_end" hidden="{{!loadingDecIcoShow}}"></view>
+    <view class="circle" hidden="{{loadingDecIcoShow}}">
+      <image class="gradient_circle" animation="{{circleAnimation}}" style="width: 100%; height: 100%;" src="{{circle}}"></image>
+
+      <view class="scan" animation="{{circleAnimation}}">
+        <image class="gradient_dot" style="width: 32px; height: 32px;" src="{{circle_dot}}"></image>
+        <view class="cursor"></view>
+      </view>
+
+       <view wx:if="{{images}}">
+        <view wx:for="{{images}}" wx:for-index="idx" wx:for-item="imageItem" wx:key="img">
+          <image animation="{{animations[idx]}}" style="position: absolute; opacity: 0; width: 32px; height: 32px; left: {{imageItem.left}}; top: {{imageItem.top}}" src="{{imageItem.img}}" />
+        </view>
+      </view>
+
+    </view>
+
+    <view class="radar_score">
+      {{progressPercent}}
+      <view class="radar_score_percent">%</view>
+    </view>
+  </view>
+</template>

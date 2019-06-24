@@ -56,7 +56,7 @@ Component({
                     wx.getSystemInfo({
                         success: function(res) {
                             console.log(res, rects)
-                            let chartLeft = (res.windowWidth - rects[0].width) / 2
+                            let chartLeft = (res.windowWidth - rects[0].width) / 3
                             console.log(rects[0].width, self.data.chartData.length - 1)
                             self.setData({
                                 chartLeft: chartLeft,

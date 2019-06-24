@@ -126,6 +126,11 @@ var pageObj = {
                 id: 'slideCharts',
                 title: '25.滑动柱状图',
                 navigateUrl: '/pages/slideCharts/slideCharts'
+            },
+            {
+                id: 'jiazaisaomiao',
+                title: '26.扫描',
+                navigateUrl: '/pages/jiazaisaomiao/jiazaisaomiao'
             }
 
         ],

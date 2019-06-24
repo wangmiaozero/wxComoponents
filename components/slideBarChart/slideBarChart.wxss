@@ -50,7 +50,7 @@
 .slide-item {
     height: 90%;
     text-align: center;
-    width: 124rpx;
+    width: 70rpx;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -72,7 +72,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    width: 124rpx;
+    width: 70rpx;
     height: 450rpx;
     color: #aaa;
 }
@@ -82,7 +82,7 @@
 
 .slide-bar-content {
     background: #aaa;
-    width: 60rpx;
+    width: 30rpx;
     z-index: 5;
     /*   border-radius: 30rpx 30rpx 8rpx 8rpx; */
     margin-top: 24rpx;
