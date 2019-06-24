@@ -28,7 +28,8 @@
     "pages/mian/mian",
     "pages/huadonglizhuti/huadonglizhutu",
     "pages/slideCharts/slideCharts",
-    "pages/jiazaisaomiao/jiazaisaomiao"
+    "pages/jiazaisaomiao/jiazaisaomiao",
+    "pages/share/share"
   ],
   "window": {
     "backgroundTextStyle": "light",

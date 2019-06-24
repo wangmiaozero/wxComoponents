@@ -131,7 +131,12 @@ var pageObj = {
                 id: 'jiazaisaomiao',
                 title: '26.扫描',
                 navigateUrl: '/pages/jiazaisaomiao/jiazaisaomiao'
-            }
+            },
+            {
+              id: 'share',
+              title: '27.分享',
+              navigateUrl: '/pages/share/share'
+          }
 
         ],
 
