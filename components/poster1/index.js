@@ -29,7 +29,8 @@ Component({
         productCode: "",
         showpost: false,
         imgHeight: 0,
-        productCode: "" //二维码
+        productCode: "", //二维码
+        imagesPath: null
     },
 
     ready: function() {
@@ -90,7 +91,7 @@ Component({
             });
             var that = this;
             var productCode = that.data.codeimg;
-            console.log(productCode, "aaaaa");
+            //  console.log(productCode, "aaaaa");
             if (productCode) {
                 wx.downloadFile({
                     url: productCode,
@@ -135,6 +136,10 @@ Component({
                 var right = rect.right;
                 width = rect.width;
                 var left = rect.left;
+                var right = rect.right;
+                var bottom = rect.bottom;
+                var top = rect.top;
+                console.log(rect, "位置");
                 ctx.setFillStyle('#fff');
                 ctx.fillRect(0, 0, rect.width, height);
 
@@ -143,6 +148,7 @@ Component({
                     if (imgInfo) {
                         var imgheght = parseFloat(imgInfo);
                     }
+
                     ctx.drawImage(avaterSrc, 0, 0, width, imgheght ? imgheght : width);
                     ctx.setFontSize(14);
                     ctx.setFillStyle('#fff');
@@ -174,30 +180,57 @@ Component({
                    }
                    ctx.fillText(price, left - 15, imgheght + 110); //电话
                  } */
-
-                console.log(wx.getStorageSync('userInfo'));
+                //   console.log(wx.getStorageSync('userInfo'));
                 let myuserInfo = wx.getStorageSync('userInfo')
-                    //  绘制用户头像
+                wx.getImageInfo({
+                    src: myuserInfo.userPic,
+                    success(res) {
+                        // console.log(res);
+                        that.data.imagesPath = res.path
+                    }
+                })
+
+                //  绘制用户头像
                 if (myuserInfo) {
-                    let arc_x = myuserInfo.userPic.width
-                    let arc_y = myuserInfo.userPic.height
-                    let arc_r = myuserInfo.userPic.width
+                    // console.log(that.data.imagesPath)
+                    /*  ctx.rect(0, 0, 120, 120)
+
+                     ctx.setFillStyle('red') */
+
+                    ctx.fill();
+
                     ctx.save();
-                    ctx.arc(arc_x, arc_y, arc_r, 0, 2 * Math.PI);
-                    ctx.clip();
-                    ctx.drawImage(myuserInfo.userPic, left + 0, imgheght + 10, width / 4, width / 4)
-                    ctx.restore();
-                    ctx.save();
+
+                    ctx.beginPath() //开始创建一个路径
+
+                    ctx.arc(50, 530, 40, 0, 2 * Math.PI, false) //画一个圆形裁剪区域
+                    ctx.fillStyle = "yellow"; //填充实体颜色
+                    ctx.strokeStyle = "white"; //填充边框颜色
+                    ctx.stroke();
+                    ctx.clip() //裁剪
+                    console.log(width)
+                    ctx.drawImage(myuserInfo.userPic, left + -18, width + 171.25, width / 4, width / 4)
                     ctx.setFontSize(10);
                     ctx.setFillStyle('#000');
-                    ctx.fillText(myuserInfo.nickName, left + 0, imgheght + 110);
+                    ctx.restore() //恢复之前保存的绘图上下文
+                    ctx.fillText(myuserInfo.nickName, left + 120, imgheght + 110);
                 }
                 //  绘制二维码
                 if (codeSrc) {
                     ctx.drawImage(codeSrc, left + 185, imgheght + 10, width / 4, width / 4)
                     ctx.setFontSize(10);
                     ctx.setFillStyle('#000');
-                    /*   ctx.fillText("扫一扫进入小程序", left + 165, imgheght + 110); */
+                    ctx.font = "20px Verdana";
+                    // 创建渐变
+                    console.log(width, "22222")
+                    var gradient = ctx.createLinearGradient(0, 0, width, 0);
+                    gradient.addColorStop("0", "magenta");
+                    gradient.addColorStop("0.5", "blue");
+                    gradient.addColorStop("1.0", "red");
+                    // 用渐变填色
+                    ctx.fillStyle = gradient;
+                    ctx.fillText("扫一扫", left + 96, imgheght + 50);
+                    ctx.fillText("进入小程序", left + 80, imgheght + 80)
                 }
             }).exec()
             setTimeout(function() {
