@@ -1,0 +1,170 @@
+/* pages/share/share.wxss */
+page {
+  height: 100%;
+  background: #e4f5fc;
+}
+
+text {
+  color: #fff;
+}
+
+.tab {
+  line-height: 25rpx;
+  font-size: 25rpx;
+  background: #0065ad;
+}
+
+.tab-box {
+  height: 35rpx;
+  margin-bottom: 22rpx;
+  padding: 0rpx 18rpx 4rpx 18rpx;
+  display: flex;
+  align-items: center;
+  border: 2rpx solid #ddd;
+  border-radius: 8rpx;
+  background: rgba(0,0,0,0);
+  font-size: 25rpx;
+  color: #fff;
+}
+
+.tab .content-row-start view {
+  margin-left: 38rpx;
+}
+
+.tab-user {
+  margin-top: 6rpx;
+  max-width: 139rpx;
+  height: 46rpx;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab .content-row-end text {
+  height: 46rpx;
+  display: flex;
+  margin-top: 6rpx;
+  margin-right: 14rpx;
+}
+
+.font-box-title {
+  font-size: 40rpx;
+  width: auto;
+  margin: 0 auto;
+}
+
+.font-box-des {
+  font-size: 20rpx;
+  width: auto;
+  margin: -6rpx auto;
+}
+
+.font-box-content {
+  font-size: 26rpx;
+  margin-top: 30rpx;
+}
+
+.gait {
+  margin-top: -225px;
+  height: 225px;
+  align-items: center;
+}
+
+.bg-img {
+  height: 100%;
+}
+
+.index-bg {
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  bottom: 0rpx;
+  right: 0rpx;
+  z-index: -1;
+  height: 100%;
+  background-color: '#532e2e';
+}
+
+.pos-bg {
+  width: 82%;
+  margin: 60rpx 9% 20rpx;
+  height: 632rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.pos-bg image {
+  width: 100%;
+}
+
+.animation-line {
+  width: 108%;
+  height: auto;
+  position: absolute;
+  top: -470rpx;
+  left: -4%;
+  animation: jump 2.6s linear infinite;
+}
+
+.botton-box {
+  margin: 0 auto;
+  height: 100rpx;
+  text-align: center;
+  z-index: 3;
+  border: none;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 999rpx;
+}
+
+.pos-botton-bg {
+  border: 2px solid #fff;
+  margin-top: 40rpx;
+  box-shadow: 0 0 10px rgba(0,146,255,.35);
+  background: linear-gradient(180deg,#008bff,#0065ab);
+}
+
+.botton-share {
+  box-shadow: 0 0 10px rgba(0,146,255,.35);
+  background: #fff;
+}
+
+.feedback-close {
+  width: 51rpx;
+  height: 51rpx;
+  position: absolute;
+  top: 165rpx;
+  right: 8%;
+  padding: 20rpx;
+}
+
+.button-submit {
+  background: #0065ad;
+  width: 88%;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin: 30rpx 6%;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+@-webkit-keyframes jump {
+  0% {
+      top: -470rpx;
+  }
+
+  100% {
+      top: 200px;
+  }
+}
+
+@keyframes jump {
+  0% {
+      top: -470rpx;
+  }
+
+  100% {
+      top: 200px;
+  }
+}

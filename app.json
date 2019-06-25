@@ -29,7 +29,9 @@
     "pages/huadonglizhuti/huadonglizhutu",
     "pages/slideCharts/slideCharts",
     "pages/jiazaisaomiao/jiazaisaomiao",
-    "pages/share/share"
+    "pages/share/share",
+    "pages/share1/share",
+    "pages/fenxianghaibao/fenxianghaibao"
   ],
   "window": {
     "backgroundTextStyle": "light",

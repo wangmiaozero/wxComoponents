@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 10,
+			"current": 11,
 			"list": [
 				{
 					"id": 0,
@@ -106,6 +106,14 @@
 					"id": -1,
 					"name": "滑动柱状图",
 					"pathName": "pages/mian/mian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "分享海报",
+					"pathName": "pages/fenxianghaibao/fenxianghaibao",
+					"query": "",
 					"scene": null
 				}
 			]

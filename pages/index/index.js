@@ -133,17 +133,27 @@ var pageObj = {
                 navigateUrl: '/pages/jiazaisaomiao/jiazaisaomiao'
             },
             {
-              id: 'share',
-              title: '27.分享',
-              navigateUrl: '/pages/share/share'
-          }
+                id: 'share',
+                title: '27.分享',
+                navigateUrl: '/pages/share/share'
+            },
+            {
+                id: 'share1',
+                title: '28.分享海报',
+                navigateUrl: '/pages/share1/share'
+            },
+            {
+                id: 'share1',
+                title: '29.分享海报',
+                navigateUrl: '/pages/fenxianghaibao/fenxianghaibao'
+            }
 
         ],
 
     },
 
     /**
-     * 生命周期函数--监听页面加载  
+     * 生命周期函数--监听页面加载  pages/fenxianghaibao/fenxianghaibao
      */
     onLoad(options) {},
 

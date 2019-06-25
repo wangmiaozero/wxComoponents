@@ -1,0 +1,27 @@
+<!--pages/share/share.wxml-->
+<scroll-view class="content-row content-row-column" scrollY="true">
+    
+    <view style="width:74%;margin:0 13%">
+        <button class="botton-box botton-pos pos-botton-bg"  open-type="getUserInfo"
+     lang="zh_CN" 
+     bindgetuserinfo="getUserInfo" >
+            <text style="font-size:32rpx;color:#fff">授权</text>
+        </button>
+    </view>
+    <view style="width:74%;margin:30rpx 13%">
+        <button class="botton-box botton-share" hoverClass="none" bindtap='getSharePoster'>
+            <text style="font-size:32rpx;color:#00A0F9">生成海报</text>
+        </button>
+    </view>
+</scroll-view>
+<my-poster id="getPoster" 
+bindmyevent="myEventListener" 
+avater="http://t2.hddhhn.com/uploads/tu/201806/9999/91480c0c87.jpg" 
+codeimg="http://i4.hexun.com/2018-07-05/193365388.jpg" price="1111" 
+productname="名称"></my-poster>
+
+<!-- 
+avater 你的img
+codeimg 你的二维码 
+-->
+

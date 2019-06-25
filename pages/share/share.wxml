@@ -3,12 +3,12 @@
     
     <view style="width:74%;margin:0 13%">
         <button bindgetuserinfo="pos" class="botton-box botton-pos pos-botton-bg" openType="getUserInfo">
-            <text style="font-size:32rpx;color:#fff">开始体态检测</text>
+            <text style="font-size:32rpx;color:#fff">推荐给好友</text>
         </button>
     </view>
     <view style="width:74%;margin:30rpx 13%">
         <button class="botton-box botton-share" hoverClass="none" openType="share">
-            <text style="font-size:32rpx;color:#00A0F9">推荐给好友检测</text>
+            <text style="font-size:32rpx;color:#00A0F9">推荐给好友</text>
         </button>
     </view>
 </scroll-view>
