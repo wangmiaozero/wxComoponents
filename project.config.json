@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 12,
+			"current": -1,
 			"list": [
 				{
 					"id": 0,
@@ -119,7 +119,7 @@
 				{
 					"id": -1,
 					"name": "分享海报",
-					"pathName": "pages/fenxianghaibao/fenxianghaibao",
+					"pathName": "pages/haibao/haibao",
 					"query": "",
 					"scene": null
 				}

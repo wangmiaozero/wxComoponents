@@ -146,6 +146,11 @@ var pageObj = {
                 id: 'share1',
                 title: '29.分享海报',
                 navigateUrl: '/pages/fenxianghaibao/fenxianghaibao'
+            },
+            {
+                id: 'haibao',
+                title: '30.分享海报',
+                navigateUrl: '/pages/haibao/haibao'
             }
 
         ],
@@ -153,7 +158,7 @@ var pageObj = {
     },
 
     /**
-     * 生命周期函数--监听页面加载  pages/fenxianghaibao/fenxianghaibao
+     * 生命周期函数--监听页面加载  
      */
     onLoad(options) {},
 

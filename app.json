@@ -31,7 +31,8 @@
     "pages/jiazaisaomiao/jiazaisaomiao",
     "pages/share/share",
     "pages/share1/share",
-    "pages/fenxianghaibao/fenxianghaibao"
+    "pages/fenxianghaibao/fenxianghaibao",
+    "pages/haibao/haibao"
   ],
   "window": {
     "backgroundTextStyle": "light",

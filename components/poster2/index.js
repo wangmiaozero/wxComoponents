@@ -141,9 +141,9 @@ Component({
                 var top = rect.top;
                 console.log(rect, "位置");
                 ctx.setFillStyle('#fff');
-                ctx.fillRect(0, 0, rect.width, height);
+                // ctx.fillRect(0, 0, rect.width, height);
 
-                //头像
+                //图片
                 if (avaterSrc) {
                     if (imgInfo) {
                         var imgheght = parseFloat(imgInfo);
@@ -155,32 +155,7 @@ Component({
                     ctx.setTextAlign('left');
                 }
 
-                /*  //产品名称
-                 if (that.data.productname) {
-                     const CONTENT_ROW_LENGTH = 24; // 正文 单行显示字符长度
-                     let [contentLeng, contentArray, contentRows] = that.textByteLength((that.data.productname).substr(0, 40), CONTENT_ROW_LENGTH);
-                     ctx.setTextAlign('left');
-                     ctx.setFillStyle('#000');
-                     ctx.setFontSize(14);
-                     let contentHh = 22 * 1;
-                     for (let m = 0; m < contentArray.length; m++) {
-                         ctx.fillText(contentArray[m], 15, imgheght + 35 + contentHh * m);
-                     }
-                 } */
 
-
-                //产品金额
-                /*  if (that.data.price || that.data.price == 0) {
-                   ctx.setFontSize(25);
-                   ctx.setFillStyle('#F57509');
-                   ctx.setTextAlign('left');
-                   var price = that.data.price;
-                   if (!isNaN(price)) {
-                     price = "¥" + that.data.price
-                   }
-                   ctx.fillText(price, left - 15, imgheght + 110); //电话
-                 } */
-                //   console.log(wx.getStorageSync('userInfo'));
                 let myuserInfo = wx.getStorageSync('userInfo')
                 wx.getImageInfo({
                     src: myuserInfo.userPic,
@@ -199,37 +174,22 @@ Component({
 
                     ctx.beginPath() //开始创建一个路径
 
-                    ctx.arc(50, 515, 30, 0, 2 * Math.PI, false) //画一个圆形裁剪区域
+                    ctx.arc(50, 40, 30, 0, 2 * Math.PI, false) //画一个圆形裁剪区域
                     ctx.fillStyle = "yellow"; //填充实体颜色
-                    ctx.strokeStyle = "white"; //填充边框颜色
+                    //ctx.strokeStyle = "white"; //填充边框颜色
                     ctx.stroke();
                     ctx.clip() //裁剪
-                    ctx.drawImage(myuserInfo.userPic, left + -10, width + 161.25, width / 5, width / 5)
+                    ctx.drawImage(myuserInfo.userPic, left + -10, 10, width / 5, width / 5)
                     ctx.setFontSize(10);
                     ctx.setFillStyle('#000');
                     ctx.restore() //恢复之前保存的绘图上下文
                     console.log(myuserInfo.nickName)
                     ctx.font = "15px Verdana";
                     // 创建渐变
-                    ctx.fillStyle = "#000";
-                    ctx.fillText(myuserInfo.nickName, left - 6, imgheght + 88);
+                    ctx.fillStyle = "#fff";
+                    ctx.fillText(myuserInfo.nickName, left + 60, 50);
                 }
-                //  绘制二维码
-                if (codeSrc) {
-                    ctx.drawImage(codeSrc, left + 185, imgheght + 10, width / 4, width / 4)
-                    ctx.setFontSize(10);
-                    ctx.setFillStyle('#000');
-                    ctx.font = "20px Verdana";
-                    // 创建渐变
-                    var gradient = ctx.createLinearGradient(0, 0, width, 0);
-                    gradient.addColorStop("0", "magenta");
-                    gradient.addColorStop("0.5", "blue");
-                    gradient.addColorStop("1.0", "red");
-                    // 用渐变填色
-                    ctx.fillStyle = gradient;
-                    ctx.fillText("长按识别", left + 80, imgheght + 50);
-                    ctx.fillText("小程序码", left + 80, imgheght + 80)
-                }
+
             }).exec()
             setTimeout(function() {
                 ctx.draw();
@@ -334,7 +294,8 @@ Component({
                             that.setData({
                                 imgHeight: imgHeight
                             })
-                            cb(imgHeight - 130);
+                            console.log(imgHeight)
+                            cb(imgHeight);
                         }
                     })
                 }
