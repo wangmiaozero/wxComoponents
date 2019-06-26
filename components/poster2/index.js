@@ -176,7 +176,8 @@ Component({
 
                     ctx.arc(50, 40, 30, 0, 2 * Math.PI, false) //画一个圆形裁剪区域
                     ctx.fillStyle = "yellow"; //填充实体颜色
-                    //ctx.strokeStyle = "white"; //填充边框颜色
+                    ctx.strokeStyle = "white"; //填充边框颜色
+                    ctx.lineWidth = 5;
                     ctx.stroke();
                     ctx.clip() //裁剪
                     ctx.drawImage(myuserInfo.userPic, left + -10, 10, width / 5, width / 5)

@@ -1,0 +1,7 @@
+<!--pages/posters/posters2/posters2.wxml-->
+<view class="contain">
+  <image src="{{shareImage}}" class="share-image"></image>
+  <canvasdrawer painting="{{painting}}" class="canvasdrawer" catch:getImage="eventGetImage"/>
+  <button class="keep1" catchtap="eventDraw">绘制</button>
+   <button class="keep" catchtap='eventSave'>{{shareText}}</button> 
+</view>

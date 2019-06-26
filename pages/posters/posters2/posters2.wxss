@@ -1,0 +1,58 @@
+/* pages/posters/posters2/posters2.wxss */
+page{
+  width:100%;
+  height:100%;
+  background-color:#1d1443;
+}
+.share-image {
+    width: 656rpx;
+      height: 1320rpx;
+        margin:0 50rpx 50rpx;
+}
+
+.contain{
+width:100%;
+height:100%;
+
+
+}
+.keep1{
+  position:fixed;
+  bottom:150rpx;
+  width:382rpx;
+  height:80rpx;
+  left:50%;
+  margin-left:-191rpx;
+  border-radius:40rpx;
+  background-color:#fb4a50;
+  border:3px solid #fff;
+  box-sizing: border-box;
+  font-size:30rpx;
+  font-family: PingFang-SC-Medium;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keep{
+  position:fixed;
+  bottom:30rpx;
+  width:382rpx;
+  height:80rpx;
+  left:50%;
+  margin-left:-191rpx;
+  border-radius:40rpx;
+  background-color:#fb4a50;
+  border:3px solid #fff;
+  box-sizing: border-box;
+  font-size:30rpx;
+  font-family: PingFang-SC-Medium;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

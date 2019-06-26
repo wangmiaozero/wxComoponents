@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 13,
 			"list": [
 				{
 					"id": 0,
@@ -120,6 +120,13 @@
 					"id": -1,
 					"name": "分享海报",
 					"pathName": "pages/haibao/haibao",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/haibao1/haibao1",
+					"pathName": "pages/haibao1/haibao1",
 					"query": "",
 					"scene": null
 				}

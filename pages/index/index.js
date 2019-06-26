@@ -151,7 +151,23 @@ var pageObj = {
                 id: 'haibao',
                 title: '30.分享海报',
                 navigateUrl: '/pages/haibao/haibao'
-            }
+            },
+
+            {
+                id: 'posters1',
+                title: '31.分享海报',
+                navigateUrl: '/pages/posters/posters1/posters1'
+            },
+            {
+                id: 'posters1',
+                title: '32.分享海报',
+                navigateUrl: '/pages/posters/posters2/posters2'
+            },
+            {
+                id: 'haibao',
+                title: '33.分享海报',
+                navigateUrl: '/pages/haibao1/haibao1'
+            },
 
         ],
 
@@ -159,6 +175,7 @@ var pageObj = {
 
     /**
      * 生命周期函数--监听页面加载  
+     *  
      */
     onLoad(options) {},
 

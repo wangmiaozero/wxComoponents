@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "海报图2",
+  "usingComponents": {
+    "canvasdrawer": "/components/canvasdrawer/canvasdrawer"
+  }
+}
