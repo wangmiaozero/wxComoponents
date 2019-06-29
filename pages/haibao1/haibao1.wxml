@@ -1,2 +1,6 @@
-<!--pages/haibao1/haibao1.wxml-->
-<canvas canvas-id="shareCanvas" style="width:600px;height:900px"></canvas>
+<!--index.wxml-->
+<poster id="poster" hide-loading="{{true}}" preload="true"  config="{{posterConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+
+</poster>
+
+<button bindtap="onCreateOtherPoster">异步生成海报二</button>

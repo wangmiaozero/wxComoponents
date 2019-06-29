@@ -35,7 +35,7 @@ Page({
                 clear: true,
                 views: [{
                         type: 'image',
-                        url: '../../images/img/0723bg.jpg',
+                        url: 'https://zhanzhile.ukidgo.cn/static/images/common/poster/7-1.jpg',
                         top: 0,
                         left: 0,
                         width: 650,

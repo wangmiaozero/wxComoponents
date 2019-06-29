@@ -5,11 +5,15 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
 	"appid": "wx33aded6302864055",
+	"miniprogram": "dist",
 	"projectname": "frankyui-weapp",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -30,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 13,
+			"current": 17,
 			"list": [
 				{
 					"id": 0,
@@ -124,10 +128,37 @@
 					"scene": null
 				},
 				{
+					"id": 13,
+					"name": "pages/haibao2/haibao2",
+					"pathName": "pages/haibao2/haibao2",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
 					"name": "pages/haibao1/haibao1",
 					"pathName": "pages/haibao1/haibao1",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/haibao3/haibao3",
+					"pathName": "pages/haibao3/haibao3",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/haibao4/haibao3",
+					"pathName": "pages/haibao4/haibao3",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/haibao1/haibao1",
+					"pathName": "pages/haibao1/haibao1",
 					"scene": null
 				}
 			]

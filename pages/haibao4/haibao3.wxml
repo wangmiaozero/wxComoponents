@@ -1,0 +1,6 @@
+<view>
+    <canvas canvas-id="myCanvas" bindtap="longClick" />
+    <view class="qrCode">
+        <canvas canvas-id="qrCodeCanvas" />
+    </view>
+</view>

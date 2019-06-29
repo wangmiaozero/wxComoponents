@@ -1,0 +1,18 @@
+/* pages/haibao3/haibao3.wxss */
+canvas {
+  /* position: fixed;  */
+  width: 100vw;
+  height: 1334rpx;
+}
+
+.qrCode {
+  position: absolute;
+  left: -1000rpx;
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.qrCode > canvas {
+  width: 100rpx;
+  height: 100rpx;
+}

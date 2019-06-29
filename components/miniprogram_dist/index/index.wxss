@@ -1,4 +1,19 @@
-/* pages/haibao1/haibao1.wxss */
+.canvas {
+    width: 750rpx;
+    height: 750rpx;
+}
+.canvas.pro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate3d(-9999rpx, 0, 0);
+}
+.canvas.debug {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1rpx solid #ccc;
+}
 .poste_btn{
   position:fixed;
 bottom:150rpx;
