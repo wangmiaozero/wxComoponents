@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Version: 0.1
+ * @Autor: wangmiao
+ * @Date: 2021-04-18 22:39:55
+ * @LastEditors: wangmiao
+ * @LastEditTime: 2021-04-18 22:41:32
+-->
 # 优秀的前端开发者,你居然来了.就
 
 # 点一下 star 吧
@@ -6,7 +14,12 @@
 
 # 少部分组件由本人开发的!
 
-# 大家可以接着往后面更新开发,继续完善这个小程序组件库,有兴趣互相学习的可以加下 Q 群 634196762
+
+# 技术交流
+> 大家可以接着往后面更新开发,继续完善这个小程序组件库,有兴趣互相学习的可以加下
+> 微信：wm1061214467  回复：wechat
+
+
 
 ![image](http://oss.wangmiaozero.cn/demo/1.png)
 ![image](http://oss.wangmiaozero.cn/demo/2.png)
